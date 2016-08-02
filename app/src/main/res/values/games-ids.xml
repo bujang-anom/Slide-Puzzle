@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Google Play game services IDs.
+Save this file as res/values/games-ids.xml in your project.
+-->
+<resources>
+    <string name="app_id">719360534679</string>
+    <string name="package_name">bujangdatuk.datukbujang.datuk.slidepuzzle</string>
+    <string name="achievement_thank_you_my_friend">CgkIl9Hq6fcUEAIQAg</string>
+    <string name="achievement_bored">CgkIl9Hq6fcUEAIQAw</string>
+    <string name="achievement_really_bored">CgkIl9Hq6fcUEAIQBA</string>
+    <string name="achievement_aw...">CgkIl9Hq6fcUEAIQBQ</string>
+    <string name="achievement_kurang_kerjaan_sob">CgkIl9Hq6fcUEAIQBg</string>
+    <string name="leaderboard_high_score">CgkIl9Hq6fcUEAIQAQ</string>
+</resources>

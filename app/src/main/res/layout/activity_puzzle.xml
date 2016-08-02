@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="false"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="bujangdatuk.datukbujang.datuk.slidepuzzle.PuzzleActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/background_dark" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@android:color/background_dark" />
+
+            <ImageView
+                android:id="@+id/grid_1_1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@drawable/monas_1_1"
+                android:adjustViewBounds="true"
+                />
+
+            <View
+                android:layout_width="1dp"
+                android:id="@+id/vertical_line_1"
+                android:layout_height="match_parent"
+                android:background="@android:color/background_dark"/>
+
+            <ImageView
+                android:id="@+id/grid_1_2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@drawable/monas_1_2"
+                android:adjustViewBounds="true"/>
+
+            <View
+                android:id="@+id/vertical_line_2"
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@android:color/background_dark"/>
+
+            <ImageView
+                android:id="@+id/grid_1_3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@drawable/monas_1_3"
+                android:adjustViewBounds="true"/>
+
+            <View android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@android:color/background_dark"/>
+        </LinearLayout>
+
+        <View
+            android:id="@+id/horizontal_line_1"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/background_dark" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@android:color/background_dark" />
+
+            <ImageView
+                android:id="@+id/grid_2_1"
+                android:layout_width="0sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@drawable/monas_2_1"
+                android:adjustViewBounds="true"/>
+
+            <View
+                android:id="@+id/vertical_line_3"
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@android:color/background_dark" />
+
+            <ImageView
+                android:id="@+id/grid_2_2"
+                android:layout_width="0sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@drawable/monas_2_2"
+                android:adjustViewBounds="true"/>
+
+            <View
+                android:id="@+id/vertical_line_4"
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@android:color/background_dark" />
+
+            <ImageView
+                android:id="@+id/grid_2_3"
+                android:layout_width="0sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@drawable/monas_2_3"
+                android:adjustViewBounds="true"/>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@android:color/background_dark" />
+        </LinearLayout>
+
+        <View
+            android:id="@+id/horizontal_line_2"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/background_dark" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@android:color/background_dark" />
+
+            <ImageView
+                android:id="@+id/grid_3_1"
+                android:layout_width="0sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@drawable/monas_3_1"
+                android:adjustViewBounds="true"/>
+
+            <View
+                android:id="@+id/vertical_line_5"
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@android:color/background_dark" />
+
+            <ImageView
+                android:id="@+id/grid_3_2"
+                android:layout_width="0sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@drawable/monas_3_2"
+                android:adjustViewBounds="true"/>
+
+            <View
+                android:id="@+id/vertical_line_6"
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@android:color/background_dark" />
+
+            <ImageView
+                android:id="@+id/grid_3_3"
+                android:layout_width="0sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@drawable/monas_3_3"
+                android:adjustViewBounds="true"/>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@android:color/background_dark" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/background_dark" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_centerVertical="true"
+                android:layout_weight="1">
+                <TextView
+                    android:id="@+id/puzzle_solve_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:text="Puzzle Solve"/>
+                <TextView
+                    android:id="@+id/counter_step"
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:textSize="34dp"
+                    android:text="0"/>
+                <TextView
+                    android:id="@+id/counter_step_label"
+                    android:layout_width="wrap_content"
+                    android:layout_below="@+id/counter_step"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textSize="14dp"
+                    android:text="move"/>
+                <Button
+                    android:id="@+id/button_reset"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAllCaps="false"
+                    android:background="@android:color/transparent"
+                    android:layout_gravity="center"
+                    android:onClick="reset"
+                    android:text="START"/>
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
